@@ -1,8 +1,11 @@
 name: run Rpa-Wm-Version2.py
 
-on:
-  schedule:
-    - cron: '* 2 * * *'
+on: 
+  workflow_dispatch:
+
+# on:
+#   schedule:
+#     - cron: '* 2 * * *'
 
 jobs:
   run_schedule:
